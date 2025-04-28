@@ -1,0 +1,65 @@
+{
+  "editor.rulers": [80, 120],
+  "editor.wordWrapColumn": 80,
+  "eslint.format.enable": true,
+  "eslint.useFlatConfig": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "editor.tabSize": 2,
+  "editor.minimap.enabled": false,
+  "git.mergeEditor": false,
+  "css.validate": false,
+  "scss.validate": false,
+  "stylelint.validate": [
+      "css",
+      "postcss",
+      "scss"
+  ],
+  "eslint.validate": [
+      "javascript",
+      "typescript",
+      "typescriptreact"
+  ],
+  "editor.snippetSuggestions": "top",
+  "workbench.colorTheme": "Ayu Mirage",
+  "[javascript]": {
+      "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+      "editor.formatOnPaste": true,
+      "editor.formatOnSave": true
+  },
+  "[javascriptreact]": {
+      "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+      "editor.formatOnPaste": true,
+      "editor.formatOnSave": true
+  },
+  "[typescript]": {
+      "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+      "editor.formatOnPaste": true,
+      "editor.formatOnSave": true
+  },
+  "[typescriptreact]": {
+      "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+      "editor.formatOnPaste": true,
+      "editor.formatOnSave": true
+  },
+  "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnPaste": true,
+      "editor.formatOnSave": true
+  },
+  "[markdown]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnPaste": true,
+      "editor.formatOnSave": true
+  },
+  "[css]": {
+      "editor.defaultFormatter": "stylelint.vscode-stylelint",
+      "editor.formatOnPaste": true,
+      "editor.formatOnSave": true
+  },
+  "[scss]": {
+      "editor.defaultFormatter": "stylelint.vscode-stylelint",
+      "editor.formatOnPaste": true,
+      "editor.formatOnSave": true
+  }
+}
